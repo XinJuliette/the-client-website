@@ -25,16 +25,16 @@
 /*RECOMMENDED-FOR-YOU*/
 .filters {
     display: flex;
-    flex-direction: row;
         background-color: pink; /*DELETE LATER*/
     padding: 2em;
 }
 
+.recommended-for-you {
+    align-self: flex-start;
+}
 
 .recommended-buttons {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
+    align-self: right;
 }
 
 h2 {
