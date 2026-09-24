@@ -21,3 +21,22 @@
 .events-browse {
     background-color: var(--lightblue);
 }
+
+/*RECOMMENDED-FOR-YOU*/
+.filters {
+    display: flex;
+    flex-direction: row;
+        background-color: pink; /*DELETE LATER*/
+    padding: 2em;
+}
+
+
+.recommended-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+h2 {
+    margin-bottom: 0em;
+}
