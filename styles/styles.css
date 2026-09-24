@@ -1,4 +1,5 @@
 /* CSS */
+
 :root {
     --lightpink: #EFB4D9;
     --darkpink: #E68EC5;
@@ -13,8 +14,24 @@
 
     --bodytext: #494949;
     --lightbodytext: #616161;
-    
-
-
 
 }
+
+body {
+    background-color: var(--lightgrey);
+    font-family: 'TASA orbiter', sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    background-color: white;
+}
+
+    .logo-nav{
+        width: 7em;
+        height: 7em;
+    }
+
+

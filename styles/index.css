@@ -1,0 +1,23 @@
+/*DASHBOARD-HEADER*/
+.dashboard-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.browse-buttons {
+    padding: 1em;
+    background-color: var(--midgrey);
+}
+
+.find-colleagues-browse {
+    background-color: var(--lightpink); 
+}
+
+.projects-browse {
+    background-color: var(--lightcyan);
+}
+
+.events-browse {
+    background-color: var(--lightblue);
+}
