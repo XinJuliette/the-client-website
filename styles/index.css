@@ -41,11 +41,41 @@ h2 {
     margin-bottom: 0em;
 }
 
+/*GRID VOOR CARDS*/
+.cards {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+.cards-grid {
+    box-sizing: border-box;
+}
+
 /*CARD OPMAAK*/
 
 .card {
     background-color: pink;
     border-radius: 3em;
-    padding: 2em;
+    padding: 1em;
+    height: 20em;
+    width: 25em;
+    margin: 1em;
+}
 
+.profile-picture-card {
+    height: 10em;
+    width: auto;
+    border-radius: 15em;
+}
+.buttons-card {
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-end;
+    align-items: center;
+}
+.person-info-card {
+    display: flex;
+    flex-direction: column;
+}
 
