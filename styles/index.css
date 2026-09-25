@@ -43,3 +43,9 @@ h2 {
 
 /*CARD OPMAAK*/
 
+.card {
+    background-color: pink;
+    border-radius: 3em;
+    padding: 2em;
+
+
