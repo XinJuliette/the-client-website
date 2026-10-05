@@ -24,8 +24,18 @@ body {
 }
 
 nav {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+
     img {
-        height: 5em;
         width: 5em;
+        height: auto;
+    }
+
+    button {
+        padding: 1em;
+        outline-color: transparent;
     }
 }
