@@ -17,16 +17,24 @@
 
 }
 
+article {
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    grid-template-areas:
+    "nav main";
+}
+
 body {
     background-color: var(--lightgrey);
     font-family: 'TASA orbiter', sans-serif;
 }
 
 nav {
-    display: flex;
-    flex-direction: column;
     padding: 1em;
     background-color: white;
+
+    width: auto;
+    height: 100%;
 }
 
     .logo-nav{
