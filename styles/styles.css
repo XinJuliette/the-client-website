@@ -70,6 +70,11 @@ footer{
 
         button:hover {
             background-color: var(--darkgrey);
+            svg {
+                path {
+                    fill: white;
+                }
+            }
         }
 
 }
@@ -85,3 +90,4 @@ a {
 button:hover {
     cursor: pointer;
 }
+
