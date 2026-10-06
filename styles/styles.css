@@ -12,6 +12,7 @@
     --midgrey: #E6E6E6;
     --darkgrey: #322F2F;
     --background-website: #F2F2F2;
+    --dropshadow: #14131340;
 
     --bodytext: #494949;
     --lightbodytext: #616161;
@@ -65,16 +66,22 @@ footer{
             padding: 1em;
             border-radius: 8px;
             border-color: transparent;
-            
-            /* background-color: transparent;
-            border-color: transparent;
-            padding: .5em;
-            border-radius: 8px; */
         }
 
         button:hover {
             background-color: var(--darkgrey);
-            cursor: pointer;
         }
 
+}
+
+a {
+    color: var(--bodytext);
+    text-wrap: wrap;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+/* CURSOR PROPERTIES */
+button:hover {
+    cursor: pointer;
 }
