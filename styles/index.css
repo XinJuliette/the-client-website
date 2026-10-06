@@ -54,4 +54,14 @@ h2 {
         background-color: var(--darkgrey);
     }
 }
-
+.swipe {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    place-items: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align:center;
+    width: 50%;
+    text-wrap: wrap;
+}
