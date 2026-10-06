@@ -19,10 +19,24 @@
 
 }
 
+/* TOP NAVIGATION */
+#hamburger-menu{
+    border-radius: 8px;
+}
+    #hamburger-menu:hover {
+        background-color: var(--darkgrey);
+        svg {
+            path{
+                fill:white;}
+        }
+    }
+
+/* END TOP NAVIGATION */
 body {
     margin: 0;
     background-color: var(--background-website);
     font-family: 'TASA orbiter', sans-serif;
+    color: var(--bodytext);
 }
 
 article {
