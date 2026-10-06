@@ -26,6 +26,10 @@ h2 {
         a:nth-of-type(3) {
             background-color: var(--lightblue);
         }
+
+        a:hover {
+            box-shadow:none;
+        }
 }    
  input {
     margin: 2em;
@@ -35,7 +39,7 @@ h2 {
     padding: 1em;
     font-size: medium;
  }
-.recommended-buttons {  
+.recommended-buttons, .bookmarked-buttons {  
     display: grid;
     grid-template-columns: 5fr 1fr;
     gap: 9em;
@@ -59,26 +63,3 @@ h2 {
     }
 }
 
-.bookmarked-buttons {
-        display: grid;
-    grid-template-columns: 5fr 1fr;
-    gap: 9em;
-    width: 100%;
-
-    button {
-        border-color: transparent;
-    }
-    button:nth-of-type(1) {
-        padding: 0.5em;
-        border-radius: 8px;
-        background-color: var(--midgrey);
-        
-    }
-    button:nth-of-type(2) {
-        padding:1em;
-        border-radius: 8px;;
-    }
-    button:nth-of-type(2):hover {
-        background-color: var(--darkgrey);
-    }
-}
