@@ -31,14 +31,6 @@ h2 {
             box-shadow:none;
         }
 }    
- input {
-    margin: 2em;
-    background-color: var(--midgrey);
-    border-color: transparent;
-    border-radius: 30px;
-    padding: 1em;
-    font-size: medium;
- }
 .recommended-buttons, .bookmarked-buttons {  
     display: grid;
     grid-template-columns: 5fr 1fr;
