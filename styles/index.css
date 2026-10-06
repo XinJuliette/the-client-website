@@ -27,18 +27,22 @@ h2 {
         }
 }    
 
-.recommended {
+.recommended-buttons {  
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    gap: 9em;
+    width: 100%;
+
     button {
         border-color: transparent;
     }
     button:nth-of-type(1) {
-        /* align-items: center; */
         padding: 0.5em;
         border-radius: 8px;
         background-color: var(--midgrey);
-
-        svg {
-            padding: .5em;
-        }
+        
+    }
+    button:nth-of-type(2) {
+        padding:1em;
     }
 }

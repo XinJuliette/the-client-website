@@ -54,10 +54,27 @@ footer{
         width: 100%;
         position: fixed;
         bottom: 0;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        gap:1em;
 
         button {
             background-color: transparent;
-            border-color: transparent;
+            width: 4em;
+            height: 4em;
             padding: 1em;
+            border-radius: 8px;
+            border-color: transparent;
+            
+            /* background-color: transparent;
+            border-color: transparent;
+            padding: .5em;
+            border-radius: 8px; */
         }
+
+        button:hover {
+            background-color: var(--darkgrey);
+            cursor: pointer;
+        }
+
 }
