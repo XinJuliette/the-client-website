@@ -13,7 +13,17 @@ De instructie van deze leertaak staan in de [WIKI](https://github.com/fdnd-task/
   * [Bronnen](#bronnen)
   * [Licentie](#licentie)
 
+## Intro
+Voor deze opdracht ben ik aan de slag gegaan aan het project PediaConnect. PediaConnect is bedacht om de drempel voor sociale contacten te verlagen voor kinderartsen. Door hier een platform voor te maken, kunnen artsen makkelijker contact leggen met elkaar en kennis delen. 
+
+Dit is de link naar de PediaConnect website:
+https://xinjuliette.github.io/the-client-website/
+
+
+
+
 ## Beschrijving
+
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
