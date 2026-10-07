@@ -25,6 +25,7 @@
 .topnav {
     overflow: hidden;
     position: relative;
+    padding: 0em .5em 0em .5em;
 
     align-items: center;
     display: grid;
