@@ -54,7 +54,7 @@
     }
 /* LINKED TO <SCRIPT> IN HTML FOR NAVLINKS */
     #navlinks {
-        display: grid;
+        display: none;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, 1fr);
         grid-template-areas: 
