@@ -19,7 +19,7 @@ Voor deze opdracht ben ik aan de slag gegaan aan het project PediaConnect. Pedia
 Dit is de link naar de PediaConnect website:
 https://xinjuliette.github.io/the-client-website/
 
-![alt text](image.png)
+
 
 
 ## Beschrijving
