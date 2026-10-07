@@ -25,13 +25,13 @@
             
                     <!-- HIDDEN NAV LINKS -->
             <div id="navlinks">
-                <a href="projects.html">Opportunities
+                <a href="projects.html" class="navlinks" id="projects">Opportunities
                     <!-- SVG -->
                 </a>
-                <a href="events.html">Events & conventions
+                <a href="events.html" class="navlinks" id="events">Events & conventions
                     <!-- SVG -->
                 </a>
-                <a href="colleagues.html">Colleagues
+                <a href="colleagues.html" class="navlinks" id="colleagues">Colleagues
                     <!-- SVG -->
                 </a>
             </div>
@@ -48,10 +48,10 @@
         <script>
             function myFunction() {
             var x = document.getElementById("navlinks");
-            if (x.style.display === "block") {
+            if (x.style.display === "grid") {
                 x.style.display = "none";
             } else {
-                x.style.display = "block";
+                x.style.display = "grid";
             }
             }
         </script>

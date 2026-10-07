@@ -52,7 +52,7 @@
         justify-self: center;
         font-size: 7vw;
     }
-
+/* LINKED TO <SCRIPT> IN HTML FOR NAVLINKS */
     #navlinks {
         display: grid;
         grid-template-columns: 1fr;
@@ -89,6 +89,10 @@
     .navlinks {
         align-items: center;
         align-self: center;
+        padding: .5em 1em .5em 1em;
+    }
+    .navlinks:hover {
+        background-color: pink;
     }
     }
 
