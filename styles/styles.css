@@ -17,6 +17,8 @@
     --bodytext: #494949;
     --lightbodytext: #616161;
 
+    /* MINIMAL WIDTH WEBDESIGN 930px*/
+
 }
 
 /* TOP NAVIGATION */
@@ -46,9 +48,9 @@
         height: auto;
     }
 
-    button {
-        padding: 1em;
-        border-color: transparent;
+    #name {
+        justify-self: center;
+        font-size: 7vw;
     }
 
     #navlinks {
