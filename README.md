@@ -47,7 +47,7 @@ Zowel de <na> en de <footer> staan in de style.css omdat dit geldt door de gehel
 
 Bepaalde onderdelen delen dezelfde code omdat deze bijna precies hetzelfde zijn. Zoals de twee buttons bij "recommended for you" en ook de twee buttons bij "your bookmarked content"
 
-```purple
+```ruby
 .recommended-buttons, .bookmarked-buttons {  
     display: grid;
     grid-template-columns: 1fr 1fr;
