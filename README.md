@@ -30,7 +30,7 @@ https://xinjuliette.github.io/the-client-website/
 
 ## Kenmerken
 Om deze website te bouwen is er gebruik gemaakt van HTML, CSS en een klein gedeelte javascript. De website wordt nagebouwd op basis van het werk van een voormalig CMD-student die deze website heeft ontworpen.
-De code is begonnen bij HTML waar de volgorde van coderen op basis van de website is (van boven naar beneden). Ik ben dus begonnen de navigatie logo, dashboard en het hamburger-menu. Voor het hamburger-menu staat er een klein onderdeel javascript. Dit script zorgt ervoor dat de navigatie uitklapt wanneer je erop klikt.
+De code is begonnen bij HTML waar de volgorde van coderen op basis van de website is (van boven naar beneden). Ik ben begonnen met de navigatie (logo, dashboard en het hamburger-menu). Voor het hamburger-menu staat er een klein onderdeel javascript. Dit script zorgt ervoor dat de navigatie uitklapt wanneer je erop klikt.
 ```ruby
         <script>
             function myFunction() {
@@ -42,6 +42,51 @@ De code is begonnen bij HTML waar de volgorde van coderen op basis van de websit
             }
             }
         </script>
+```
+Zowel de <na> en de <footer> staan in de style.css omdat dit geldt door de gehele website heen. Elementen die enkel op één pagina zitten van de website staan in de CSS voor die specifieke pagina. Ik heb hier duidelijk onderscheid in gemaakt zodat alles overzichtelijk blijft.
+
+Bepaalde onderdelen delen dezelfde code omdat deze bijna precies hetzelfde zijn. Zoals de twee buttons bij "recommended for you" en ook de twee buttons bij "your bookmarked content"
+
+```ruby
+.recommended-buttons, .bookmarked-buttons {  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+
+    button {
+        border-color: transparent;
+    }
+    button:nth-of-type(1) {
+        width:fit-content;
+        justify-self: start;
+        padding: 0.5em 1em 0.5em 1em;
+        border-radius: 8px;
+        background-color: var(--midgrey); 
+    }
+    button:nth-of-type(1):hover {
+        background-color: var(--darkgrey);
+        color: white;
+            svg {
+                path {
+                    fill: white;
+                }
+            }
+    }
+    button:nth-of-type(2) {
+        width: fit-content;
+        justify-self: end;
+        padding:1em;
+        border-radius: 8px;;
+    }
+    button:nth-of-type(2):hover {
+        background-color: var(--darkgrey);
+                    svg {
+                path {
+                    fill: white;
+                }
+            }
+    }
+} 	  
 ```
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framework of library gebruikt? -->
 
