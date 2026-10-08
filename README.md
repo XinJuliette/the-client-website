@@ -16,17 +16,14 @@ De instructie van deze leertaak staan in de [WIKI](https://github.com/fdnd-task/
 ## Intro
 Voor deze opdracht ben ik aan de slag gegaan aan het project PediaConnect. PediaConnect is bedacht om de drempel voor sociale contacten te verlagen voor kinderartsen. Door hier een platform voor te maken, kunnen artsen makkelijker contact leggen met elkaar en kennis delen. 
 
+## Beschrijving
+De website voor PediaConnect is op dit moment nog in ontwikkeling en wordt mobile-first gecodeerd. Dit houdt in dat het als eerst werkende moet zijn op telefoon en daarna op desktop. Hierdoor is er te zien dat de website nog minder "af" voelt zodra de website geschaald wordt tot desktop-grootte.
+Op de website kom je binnen op het dashboard. Vanuit daar krijg je een overzicht te zien van wat er allemaal mogelijk is op de website. De website wordt op dit moment gebouwd met de gedachte dat de gebruiker al is ingelogd waardoor alle opties zichtbaar zijn. Zo zouden gebruikers vanuit het dashboard naar andere pagina's kunnen via de drie grote knoppen bovenaan of kunnen ze gebruik maken van het hamburger-menu bovenin om te navigeren naar andere pagina's. Ook staan er onderin het scherm allemaal mogelijkheden, zoals de knop "home" en "berichten". 
+
 Dit is de link naar de PediaConnect website:
 https://xinjuliette.github.io/the-client-website/
 <img width="495" height="1203" alt="Schermafbeelding 2026-10-08 094447" src="https://github.com/user-attachments/assets/9c74c6ea-345a-4f8b-9a68-60d364080194" />
 <img width="2556" height="1266" alt="Schermafbeelding 2026-10-08 094557" src="https://github.com/user-attachments/assets/dc568d10-8fc9-45f9-8188-47f21842d607" />
-
-
-
-
-
-## Beschrijving
-
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
