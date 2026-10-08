@@ -31,7 +31,7 @@ https://xinjuliette.github.io/the-client-website/
 ## Kenmerken
 Om deze website te bouwen is er gebruik gemaakt van HTML, CSS en een klein gedeelte javascript. De website wordt nagebouwd op basis van het werk van een voormalig CMD-student die deze website heeft ontworpen.
 De code is begonnen bij HTML waar de volgorde van coderen op basis van de website is (van boven naar beneden). Ik ben dus begonnen de navigatie logo, dashboard en het hamburger-menu. Voor het hamburger-menu staat er een klein onderdeel javascript. Dit script zorgt ervoor dat de navigatie uitklapt wanneer je erop klikt.
-'''
+```
         <script>
             function myFunction() {
             var x = document.getElementById("navlinks");
@@ -42,7 +42,7 @@ De code is begonnen bij HTML waar de volgorde van coderen op basis van de websit
             }
             }
         </script>
-'''
+```
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framework of library gebruikt? -->
 
 
