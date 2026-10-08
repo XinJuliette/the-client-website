@@ -18,6 +18,9 @@ Voor deze opdracht ben ik aan de slag gegaan aan het project PediaConnect. Pedia
 
 Dit is de link naar de PediaConnect website:
 https://xinjuliette.github.io/the-client-website/
+<img width="495" height="1203" alt="Schermafbeelding 2026-10-08 094447" src="https://github.com/user-attachments/assets/9c74c6ea-345a-4f8b-9a68-60d364080194" />
+<img width="2556" height="1266" alt="Schermafbeelding 2026-10-08 094557" src="https://github.com/user-attachments/assets/dc568d10-8fc9-45f9-8188-47f21842d607" />
+
 
 
 
